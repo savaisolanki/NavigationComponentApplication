@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mnStart"
+        android:icon="@drawable/ic_start"
+        android:title="@string/start" />
+
+    <item
+        android:id="@+id/mnMiddle"
+        android:icon="@drawable/ic_call_missed"
+        android:title="@string/middle" />
+
+    <item
+        android:id="@+id/mnEnd"
+        android:icon="@drawable/ic_call_end"
+        android:title="@string/end" />
+
+    <item
+        android:id="@+id/start"
+        android:title="@string/start_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/mnBlurLinear"
+                android:icon="@drawable/ic_blur_linear"
+                android:title="@string/blur_linear" />
+
+            <item
+                android:id="@+id/mnBlurOff"
+                android:icon="@drawable/ic_blur_off"
+                android:title="@string/BlurOff" />
+
+            <item
+                android:id="@+id/mnBlurOn"
+                android:icon="@drawable/ic_blur_on"
+                android:title="@string/blurOn" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/middle"
+        android:title="@string/middle_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/mnBookmark"
+                android:icon="@drawable/ic_bookmark"
+                android:title="@string/bookmark" />
+
+            <item
+                android:id="@+id/mnBookmarkAdd"
+                android:icon="@drawable/ic_bookmark_add"
+                android:title="@string/bookmark_add" />
+
+            <item
+                android:id="@+id/mnBookmarkBorder"
+                android:icon="@drawable/ic_bookmark_border"
+                android:title="@string/bookmark_border" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/end"
+        android:title="@string/end_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/mnBrightnessHigh"
+                android:icon="@drawable/ic_brightness_high"
+                android:title="@string/brightness_high" />
+
+            <item
+                android:id="@+id/mnBrightnessMedium"
+                android:icon="@drawable/ic_brightness_medium"
+                android:title="@string/brightness_medium" />
+
+            <item
+                android:id="@+id/mnBrightnessLow"
+                android:icon="@drawable/ic_brightness_low"
+                android:title="@string/brightness_low" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

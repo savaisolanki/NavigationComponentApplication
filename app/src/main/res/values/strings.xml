@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NavigationComponentApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_fragment">Start Fragment</string>
+    <string name="middle_fragment">Middle Fragment</string>
+    <string name="end_fragment">End Fragment</string>
+    <string name="start">Start</string>
+    <string name="middle">Middle</string>
+    <string name="end">End</string>
+    <string name="start_menu">Start Menu</string>
+    <string name="middle_menu">Middle Menu</string>
+    <string name="end_menu">End Menu</string>
+    <string name="blurOn">Blur On</string>
+    <string name="BlurOff">Blur Off</string>
+    <string name="blur_linear">Blur Linear</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmark_add">Bookmark Add</string>
+    <string name="bookmark_border">Bookmark Border</string>
+    <string name="brightness_high">Brightness High</string>
+    <string name="brightness_medium">Brightness Medium</string>
+    <string name="brightness_low">Brightness Low</string>
+    <string name="to_your_account">To Your Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+</resources>

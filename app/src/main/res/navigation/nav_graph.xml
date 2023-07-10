@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mnStart">
+
+    <fragment
+        android:id="@+id/mnStart"
+        android:name="com.example.navigationcomponentapplication.fragment.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/fragment_start">
+        <!--<action
+            android:id="@+id/action_startFragment_to_middleFragment"
+            app:destination="@id/mnMiddle" />
+        <action
+            android:id="@+id/action_startFragment_to_endFragment"
+            app:destination="@id/mnEnd" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/mnMiddle"
+        android:name="com.example.navigationcomponentapplication.fragment.MiddleFragment"
+        android:label="MiddleFragment"
+        tools:layout="@layout/fragment_middle">
+       <!-- <action
+            android:id="@+id/action_middleFragment_to_endFragment"
+            app:destination="@id/mnEnd" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/mnEnd"
+        android:name="com.example.navigationcomponentapplication.fragment.EndFragment"
+        android:label="EndFragment"
+        tools:layout="@layout/fragment_end"/>
+    <fragment
+        android:id="@+id/mnBookmark"
+        android:name="com.example.navigationcomponentapplication.fragment.BookMarkFragment"
+        android:label="fragment_book_mark"
+        tools:layout="@layout/fragment_book_mark" />
+</navigation>
